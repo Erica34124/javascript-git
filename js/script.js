@@ -1,2 +1,4 @@
-console.log('script rodando');
-console.log('é isso ai')
+import Slide from './slide.js';
+const slide = new Slide( '.slide', '.wrapper');
+slide.init()
+console.log(slide)
